@@ -1,0 +1,19 @@
+When you uses Google's Takeout to retrieve your pics with Google Photos all resources have the same timestamp... The time you order the "takeout"
+
+
+This script will use the '.json' files found in the takeout to 'update' the creation timestamp of the retrieved files with the correct one.
+
+Hope you find this helpful
+
+Original files won't be changed, all resources will be duplicated into a new 'conversions' folder
+
+
+Cuando usas Google Takeout y descargas tus fotos de Google Fotos, las descargas con la marca de tiempo mal, aparecen todas con la fecha de creación puesta a cuando ordenaste la descarga.
+
+Este script utiliza los archivos '.json' que aparecen con el takeout para arreglar las fechas de creación con las buenas.
+
+Espero que te sirva!
+
+Ojo, prerara disco porque esto duplica las fotos, siempre se quedarán las originales en su sitio ;)
+
+Digo fotos pero también video, pegatinas, vaya, lo que se encuentre que no sea json pero que tenga un json asociado
